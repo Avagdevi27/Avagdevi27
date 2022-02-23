@@ -1,0 +1,9 @@
+num=int(input('enter N number:'))
+arr=[]
+for n in range(num):
+    number=int(input('enter number:'))
+    arr.append(number)
+print(arr)
+
+print("minimum value in the list:",max(arr))
+print("maximum value in the list:",min(arr))
