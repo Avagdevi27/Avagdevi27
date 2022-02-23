@@ -1,0 +1,8 @@
+a=[]
+size=int(input("enter the size of list:"))
+for i in range(size):
+    val=int(input("enter number to add in list a:"))
+    a.append(val)
+print("before reverse the list:",a)
+a.reverse()
+print("after reverse the list=",a)
