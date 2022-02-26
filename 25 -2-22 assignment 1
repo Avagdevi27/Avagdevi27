@@ -1,0 +1,13 @@
+n=int(input("n value"))
+l=[]
+positive=[]
+negative=[]
+for i in range (n):
+    x=int(input())
+    l.append(x)
+for i in l:
+    if i>0:
+        positive.append(i)
+    else:
+        negative.append(i)
+print(positive,' ',negative)
