@@ -1,0 +1,14 @@
+n=int(input("enter n value"))
+l=[]
+t=[]
+for x in range(n):
+    x=int(input())
+    l.append(x)
+count=0
+for i in range(n):
+    i=int(i)
+    if l[i]!=0:
+        t.append(l[i])
+        count+=1
+print(t)
+print("count",count)
