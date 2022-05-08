@@ -1,0 +1,12 @@
+list1=[]
+dict1={}
+n=int(input('no.of elements in list:'))
+for i in range(n):
+    a=int(input('enter list elements:'))
+    list1.append(a)
+for i in list1:
+    if i%2==0:
+        dict1[i]='yes'
+    else:
+        dict1[i]='no'
+print(dict1)
